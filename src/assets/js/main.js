@@ -63,8 +63,8 @@ new RGBELoader()
 // Adding mousemov animation
 window.addEventListener('mousemove', (e) => {
     if (model) {
-        const rotationX = (e.clientX / window.innerWidth - .5) * (Math.PI * .3);
-        const rotationY = (e.clientY / window.innerHeight - .5) * (Math.PI * .3);
+        const rotationX = (e.clientX / window.innerWidth - .5) * (Math.PI * .12);
+        const rotationY = (e.clientY / window.innerHeight - .5) * (Math.PI * .12);
         gsap.to(model.rotation, {
             x: rotationY,
             y: rotationX,
