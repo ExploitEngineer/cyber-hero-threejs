@@ -4,7 +4,7 @@ A futuristic **hero section** built with **Three.js** and **Vite**, featuring a 
 
 ## 🌐 Live Demo
 
-👉 [Check it out here!](#) *(https://cyber-hero-three.vercel.app)*
+👉 [Check it out here!](#) *(https://cyber-hero-threejs.vercel.app)*
 
 ## 📌 Features
 
