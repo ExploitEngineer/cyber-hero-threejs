@@ -5,6 +5,7 @@ import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
 import { RGBShiftShader } from 'three/examples/jsm/shaders/RGBShiftShader.js';
+import gsap from 'gsap';
 
 // Creating Scene
 const scene = new THREE.Scene();
@@ -62,7 +63,14 @@ new RGBELoader()
 // Adding mousemov animation
 window.addEventListener('mousemove', (e) => {
     if (model) {
-        
+        const rotationX = (e.clientX / window.innerWidth - .5) * (Math.PI * .3);
+        const rotationY = (e.clientY / window.innerHeight - .5) * (Math.PI * .3);
+        gsap.to(model.rotation, {
+            x: rotationY,
+            y: rotationX,
+            duration: 0.5,
+            ease: "power2.out"
+        });
     }
 });
 
