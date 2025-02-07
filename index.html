@@ -9,36 +9,28 @@
     <link rel="stylesheet" href="./src/assets/css/style.css">
 </head>
 
-<body class="w-full h-screen bg-black font-regular font-mono">
+<body class="w-full h-[100vh] overflow-hidden bg-black font-regular font-mono">
     <nav class="w-full fixed top-0 left-0 px-10 py-3 flex justify-between items-center">
         <img class="w-[130px] object-cover mix-blend-lighten filter saturate-150 contrast-125"
             src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3"
             alt="">
         <div class="flex gap-5 items-center">
-            <a href="#"
-                class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Games</a>
-            <a href="#"
-                class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">News</a>
-            <a href="#"
-                class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Community</a>
-            <a href="#"
-                class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Shop</a>
-            <a href="#"
-                class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Support</a>
+            <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Games</a>
+            <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">News</a>
+            <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Community</a>
+            <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Shop</a>
+            <a href="#" class="tracking-tight text-white hover:text-blue-400 hover:text-shadow-[0_0_20px_#8CF4FFFF] text-sm transition-all">Support</a>
         </div>
     </nav>
     <div class="main w-full">
-        <div class="w-full h-screen overflow-hidden">
+        <div class="w-full h-[100vh] overflow-hidden">
             <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover mix-blend-lighten filter saturate-150 contrast-125"
                 src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3"
                 alt="">
-            <div
-                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] w-[38rem] h-[38rem] rounded-full bg-blue-800 blur-[90px]">
-            </div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1] w-[38rem] h-[38rem] rounded-full bg-blue-800 blur-[90px]"></div>
             <canvas id="canvas"></canvas>
         </div>
     </div>
-
     <script type="module" src="./src/assets/js/main.js"></script>
 </body>
 
