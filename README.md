@@ -4,19 +4,35 @@ A futuristic **hero section** built with **Three.js** and **Vite**, featuring a 
 
 ## 🌐 Live Demo
 
-👉 [Check it out here!](#) *(https://cyber-hero-threejs.vercel.app)*
+👉 [Check it out here!](https://cyber-hero-threejs.vercel.app)
 
 ## 📌 Features
 
-- ⚡ Built with **Vite** for fast development
-- 🎭 **Three.js** for 3D rendering
-- 🤖 **GLTF Model Loading** (Robot model)
-- 🎥 **Smooth camera controls**
-- 📱 **Responsive design**
+* ⚡ Built with **Vite** for fast development
+* 🎭 **Three.js** for 3D rendering
+* 🤖 **GLTF Model Loading** (Robot model)
+* 🎥 **Smooth camera controls**
+* 📱 **Responsive design**
 
 ## 📦 Installation
 
-### 1️⃣ Using Vite (Recommended)
+### 1️⃣ Clone & Install via npm (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/ExploitEngineer/cyber-hero-threejs.git
+
+# Navigate into the project folder
+cd cyber-hero-threejs
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### 2️⃣ Using Vite (Manual Setup)
 
 ```bash
 # Install Vite globally (if not installed)
@@ -30,16 +46,6 @@ npm install
 
 # Start development server
 npm run dev
-```
-
-### 2️⃣ Vanilla JavaScript Setup
-
-```bash
-# Clone the repo
-git clone https://github.com/ExploitEngineer/cyber-hero-threejs.git
-cd cyber-hero-threejs
-
-# Open index.html in your browser
 ```
 
 ### 3️⃣ JavaScript with Local Server
@@ -72,4 +78,3 @@ This project is open-source and available under the **MIT License**.
 ---
 
 💙 **Made with Three.js & Vite** | ⭐ **Star the repo if you like it!** 🚀
-
